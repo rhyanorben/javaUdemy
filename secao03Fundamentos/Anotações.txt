@@ -1,0 +1,34 @@
+
+Comentar código já feito: Ctrl + /;
+
+
+JAVADOC: /** - */
+
+/** Comentário pertinente a respeito da classe:
+*
+* Essa classe é responsável...
+*
+* @author Rhyan Orben
+* @since JDK17.0
+* @see
+*
+* */
+
+Convenção:
+
+Utilizar constantes com letra maiúsculas, exemplo:
+        final double PI = 3.14159;
+
+Definição de uma variável:
+
+Na hora de definir uma variável no java, posso utilizador o atribuidor 'var', ele vai identificar qual tipo aquela variável irá receber e atribuir esse tipo a variável.
+
+Obrigatoriamente no JAVA deve ser amarrado um tipo a variável e essa variável não pode receber uma atribuição nova com tipo diferente.
+
+A diferença para uma variável definida por "String" é que ela é uma classe que possui diversos métodos, portanto posso utilizar da seguinte forma:
+
+String s = "Olá";
+s.toUpperCase();
+sout(s)
+Console: OLÁ;
+

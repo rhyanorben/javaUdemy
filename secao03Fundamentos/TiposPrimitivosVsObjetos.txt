@@ -1,0 +1,35 @@
+byte | 1 byte
+short | 2 bytes
+int | 4 bytes
+long | 8 bytes
+
+float | 4 bytes
+double | 8 bytes
+
+char | somente um caracter
+boolean | false or true
+
+
+Conversão unidades medida
+
+fator menor para fator maior = OK, tranquilo, pois tudo que é menor irá caber no fator maior.
+fator maior para fator menor = pode gerar problemas, pois pode ser que não aconteça a conversão devido ao tamanho do arquivo.
+
+Atribuições
+
+        //Tipos numéricos inteiros
+        byte anosEmpresa = 32 // Byte
+        short numerosDeVoo = 542 // Shorte
+        int id = 56789 // Integer
+        long pontosAcumulados = 3_134_845_223L // Long
+
+
+        //Tipos numéricos reais
+        float salario = 11_445.44F;
+        double vendasAcumuladas = 2991797103.01;
+
+        //Tipo booleano
+        boolean estaDeFerias = false;
+
+        //Tipo caractere
+        char status = 'A';
