@@ -6,7 +6,7 @@ public class MainPrimeiroTrauma {
 
     public static void main(String[] args) {
 
-        MainPrimeiroTrauma instancia = new MainPrimeiroTrauma();
+        MainPrimeiroTrauma instancia = new MainPrimeiroTrauma(); // Solução para printar a com a atribuição fora do main
         System.out.println(instancia.a);
 
     }
