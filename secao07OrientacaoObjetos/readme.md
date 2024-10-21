@@ -100,3 +100,7 @@ Isso também vale para parâmetro de funções ou outras situações, desde que 
 ### 4. Abstração
 
 Pode ser entendido como uma simplificação com base em práticas do "mundo real" dentro do software. Nem sempre tudo do mundo real se aplica dentro do Software, mas essa é uma prática importante para manter a organização do código.
+
+Uma classe ou método abstrato pode ser entendido em uma escala de 0 a 100% em questão de implementação. Eu posso criar uma classe e utilizar "abstract", como primeira consequência essa clase não poderá ser instanciada em nenhum momento.
+
+É utilizado para superclasses que serão apenas extendidas para as subclasses. Como padrão também é utilizado em interfaces, além de eu poder criar métodos abstratos e realizar a implementação futuramente em "herdeiros".
